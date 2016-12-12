@@ -1,4 +1,4 @@
-FROM clouder/clouder-odoo-files9
+FROM clouder/clouder-odoo9-files
 MAINTAINER Yannick Buron yburon@goclouder.net
 
 RUN git clone http://github.com/OCA/connector.git /opt/odoo/files/extra/connector -b 9.0
